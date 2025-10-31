@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Mouleeshwaran R</h1>
+
+          <p class="title">Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">mouleemoulee71@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+91 8838149595</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 14, 2005</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Dharmapuri, Tamil Nadu, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+  <li class="social-item">
+    <a href="https://github.com/RMouleeshwaran" target="_blank" class="social-link" aria-label="GitHub">
+      <ion-icon name="logo-github"></ion-icon>
+    </a>
+  </li>
+
+  <li class="social-item">
+    <a href="https://www.linkedin.com/in/mouleeshwaran-r-269059271/" target="_blank" class="social-link" aria-label="Linkedin">
+      <ion-icon name="logo-linkedin"></ion-icon>
+    </a>
+  </li>
+
+  <li class="social-item">
+  <a href="mailto:mouleemoulee71@gmail.com" target="_blank" class="social-link" aria-label="Mail">
+    <ion-icon name="mail-outline"></ion-icon>
+  </a>
+</li>
+
+
+</ul>
+
+
+      </div>
+
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+            <p>I’m <strong>MOULEESHWARAN R</strong>, an enthusiastic and creative <strong>Electronics and Communication Engineering</strong> student passionate about technology, innovation, and user-focused design. I love transforming complex ideas into simple, functional, and visually appealing solutions through a blend of engineering and creativity.
+            </p>
+            <p>My interests span across <strong>web development, IoT systems, and UI/UX design</strong>. I’ve worked on projects such as a Real-Time Expense Tracker, Smart Meeting Room Access Control via IoT, and an Online Code Collaboration Platform. Each project strengthened my problem-solving, teamwork, and design-thinking skills.
+            </p>
+            <p>I strive to build solutions that are not only technically sound but also deliver an engaging user experience. My goal is to combine innovation with impact—creating designs and systems that simplify lives and make technology more accessible.
+            </p>
+        </section>
+
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Ui/Ux design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Soft Skills</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60">
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Time Management</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Effectively prioritize and manage multiple tasks to meet deadlines with consistent quality.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Active Listener</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                   Attentively understand others’ viewpoints, ensuring clear and meaningful communication.
+
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="40" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Critical Thinking</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>          
+                    Analyze problems logically and develop innovative, practical solutions for better outcomes.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <!-- <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li> -->
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+        
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+  <header>
+    <h2 class="h2 article-title">Resume</h2>
+  </header>
+
+  <!-- ====== EDUCATION SECTION ====== -->
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="book-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Education</h3>
+    </div>
+
+    <ol class="timeline-list">
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">B.E. Electronics and Communication Engineering</h4>
+        <span>Bannari Amman Institute of Technology | Nov 2022 – Apr 2026</span>
+        <p class="timeline-text">
+          Currently pursuing my undergraduate degree with a CGPA of <strong>6.89 (up to 6th semester)</strong>. 
+          Focused on embedded systems, IoT, and web development technologies.
+        </p>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Higher Secondary Certificate (HSC)</h4>
+        <span>I.V.L Matric Hr. Sec. School | 2021 – 2022</span>
+        <p class="timeline-text">
+          Completed with a <strong>77.3%</strong> score, developing strong analytical and mathematical skills.
+        </p>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Secondary School Leaving Certificate (SSLC)</h4>
+        <span>I.V.L Matric Hr. Sec. School | 2019 – 2020</span>
+        <p class="timeline-text">
+          Achieved an impressive <strong>94.4%</strong>, laying the foundation for problem-solving and logical reasoning.
+        </p>
+      </li>
+
+    </ol>
+  </section>
+
+  <!-- ====== EXPERIENCE / PROJECTS SECTION ====== -->
+<!-- ====== EXPERIENCE / PROJECTS SECTION ====== -->
+<section class="timeline">
+
+  <div class="title-wrapper">
+    <div class="icon-box">
+      <ion-icon name="briefcase-outline"></ion-icon>
+    </div>
+    <h3 class="h3">Projects & Experience</h3>
+  </div>
+
+  <ol class="timeline-list">
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">Code Collab – Real-Time Terminal Share</h4>
+      <span>Jan 2025 – Apr 2025</span>
+      <p class="timeline-text">
+        Developed a real-time collaborative terminal using <strong>HTML, CSS, JS, and WebSockets</strong>. 
+        Enabled multiple users to join shared sessions and code together with live synchronization and low latency.
+      </p>
+    </li>
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">Smart Meeting Room Access Control and Management via IoT</h4>
+      <span>Sept 2024 – Feb 2024</span>
+      <p class="timeline-text">
+        Designed a smart IoT system integrating <strong>Arduino, PIR sensors, facial recognition, and a web-based booking portal</strong> 
+        for automated room access, attendance, and energy-efficient lighting/fan control.
+      </p>
+    </li>
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">Real-Time Expense Tracker</h4>
+      <span>Sept 2024 – Jan 2024</span>
+      <p class="timeline-text">
+        Created a responsive platform for budget tracking using <strong>HTML, CSS, JS</strong> with an admin panel and real-time 
+        expense visualization. Focused on <strong>clean UI/UX</strong> and mobile compatibility.
+      </p>
+    </li>
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">Food Ordering System</h4>
+      <span>Feb 2023 – Mar 2023</span>
+      <p class="timeline-text">
+        Developed a food ordering system in <strong>LabVIEW</strong> with a user-friendly interface for menu selection, order management, and real-time summaries. Implemented event-driven programming, dynamic menu loading, and cart management with total price calculation and confirmation dialogs for a smooth user experience.
+      </p>
+    </li>
+
+  </ol>
+</section>
+
+
+<!-- ====== CO-CURRICULAR ACTIVITIES SECTION ====== -->
+<section class="timeline">
+
+  <div class="title-wrapper">
+    <div class="icon-box">
+      <ion-icon name="school-outline"></ion-icon>
+    </div>
+    <h3 class="h3">Co-Curricular Activities</h3>
+  </div>
+
+  <ol class="timeline-list">
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">Paper Presentation – Online Code Collaboration</h4>
+      <span>SRM TRP Engineering College | 2024</span>
+      <p class="timeline-text">
+        Delivered a presentation introducing a real-time collaborative terminal platform enabling multiple users to create or join shared coding sessions with seamless synchronization and low latency. Enhanced teamwork and live coding experiences.
+      </p>
+    </li>
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">Research Publication – IoT Smart Meeting Room</h4>
+      <span>International Research Journal on Advanced Engineering Hub (IRJAEH), Vol. 2, Issue 12 | 2024</span>
+      <p class="timeline-text">
+        Co-authored a research paper titled <strong>“Smart Meeting Room Access Control and Management via IoT”</strong>. 
+        Explored IoT-based automation for secure access, attendance monitoring, and energy optimization. 
+        <a href="https://irjaeh.com/index.php/journal/article/view/455" target="_blank" style="color: var(--accent); text-decoration: underline;">Read the paper</a>.
+      </p>
+    </li>
+
+  </ol>
+</section>
+
+
+<!-- ====== EXTRA-CURRICULAR ACTIVITIES SECTION ====== -->
+<section class="timeline">
+
+  <div class="title-wrapper">
+    <div class="icon-box">
+      <ion-icon name="people-outline"></ion-icon>
+    </div>
+    <h3 class="h3">Extra-Curricular Activities</h3>
+  </div>
+
+  <ol class="timeline-list">
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">Community Service Club Member</h4>
+      <span>Bannari Amman Institute of Technology</span>
+      <p class="timeline-text">
+        Led outreach initiatives such as visits to old age homes, offering support and companionship to underprivileged individuals. 
+        Promoted empathy, social responsibility, and teamwork through active community involvement.
+      </p>
+    </li>
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">Volunteer – Campus Events</h4>
+      <span>2023 – Present</span>
+      <p class="timeline-text">
+        Assisted in organizing technical and cultural events, ensuring smooth coordination and active student participation. 
+        Strengthened leadership, time management, and event management skills.
+      </p>
+    </li>
+
+  </ol>
+</section>
+
+
+  <!-- ====== SKILLS SECTION ====== -->
+  <section class="skill">
+
+    <h3 class="h3 skills-title">Skills</h3>
+
+    <ul class="skills-list content-card">
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">HTML / CSS / JavaScript</h5>
+          <data value="70">70%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 70%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Java</h5>
+          <data value="50">50%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 50%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">C</h5>
+          <data value="45">45%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 45%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">MySQL</h5>
+          <data value="70">70%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 70%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">UI / UX & Figma Design</h5>
+          <data value="80">80%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 80%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">LabView</h5>
+          <data value="45">45%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 45%;"></div>
+        </div>
+      </li>
+
+    </ul>
+
+  </section>
+
+</article>
+
+
+      <!--
+        - #PROJECTS
+      -->
+
+<article class="projects" data-page="projects">
+
+  <header>
+    <h2 class="h2 article-title">Projects</h2>
+  </header>
+
+  <section class="projects">
+
+    <!-- ====== FILTER BUTTONS ====== -->
+    <ul class="filter-list">
+      <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+      <li class="filter-item"><button data-filter-btn>Web Design</button></li>
+      <li class="filter-item"><button data-filter-btn>Applications</button></li>
+      <li class="filter-item"><button data-filter-btn>Web Development</button></li>
+      <li class="filter-item"><button data-filter-btn>IoT Projects</button></li>
+      <li class="filter-item"><button data-filter-btn>Simulation</button></li>
+    </ul>
+
+    <!-- ====== FILTER DROPDOWN (MOBILE) ====== -->
+    <div class="filter-select-box">
+      <button class="filter-select" data-select>
+        <div class="select-value" data-selecct-value>Select category</div>
+        <div class="select-icon"><ion-icon name="chevron-down"></ion-icon></div>
+      </button>
+
+      <ul class="select-list">
+        <li class="select-item"><button data-select-item>All</button></li>
+        <li class="select-item"><button data-select-item>Web Design</button></li>
+        <li class="select-item"><button data-select-item>Applications</button></li>
+        <li class="select-item"><button data-select-item>Web Development</button></li>
+        <li class="select-item"><button data-select-item>IoT Projects</button></li>
+        <li class="select-item"><button data-select-item>Simulation</button></li>
+      </ul>
+    </div>
+
+    <!-- ====== PROJECT LIST ====== -->
+    <ul class="project-list">
+
+      <!-- PROJECT 1 -->
+      <li class="project-item active" data-filter-item data-category="web development">
+        <a href="https://github.com/RMouleeshwaran/Expense-Tracker" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/project-2.png" alt="Real-Time Expense Tracker" loading="lazy">
+          </figure>
+          <h3 class="project-title">Real-Time Expense Tracker</h3>
+          <p class="project-category">Web Development</p>
+        </a>
+      </li>
+
+      <!-- CODE COLLAB under Applications -->
+<li class="project-item active" data-filter-item data-category="applications, web development">
+  <a href="https://github.com/RMouleeshwaran/Online-code-collaboration" target="_blank">
+    <figure class="project-img">
+      <div class="project-item-icon-box">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>
+      <img src="./assets/images/project-1.png" alt="Code Collab - Terminal Share" loading="lazy">
+    </figure>
+    <h3 class="project-title">Code Collab – Real-Time Terminal Share</h3>
+    <p class="project-category">Applications/Web Development</p>
+  </a>
+</li>
+
+<!-- CODE COLLAB under Web Development (hidden initially, shown only when filtered)
+<li class="project-item " data-filter-item data-category="web development">
+  <a href="#" target="_blank">
+    <figure class="project-img">
+      <div class="project-item-icon-box">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>
+      <img src="./assets/images/project-1.png" alt="Code Collab - Terminal Share" loading="lazy">
+    </figure>
+    <h3 class="project-title">Code Collab – Real-Time Terminal Share</h3>
+    <p class="project-category">Web Development</p>
+  </a> -->
+<!-- </li> -->
+
+
+      <!-- PROJECT 3 -->
+      <li class="project-item active" data-filter-item data-category="iot projects">
+        <a href="https://irjaeh.com/index.php/journal/article/view/455" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/project-3.png" alt="Smart Meeting Room Access Control" loading="lazy">
+          </figure>
+          <h3 class="project-title">Smart Meeting Room Access Control via IoT</h3>
+          <p class="project-category">IoT Projects</p>
+        </a>
+      </li>
+
+      <!-- PROJECT 4 -->
+      <li class="project-item active" data-filter-item data-category="simulation">
+        <a href="https://github.com/RMouleeshwaran/Food-Ordering-System-in-LabView" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/project-4.png" alt="Food Ordering System in LabView" loading="lazy">
+          </figure>
+          <h3 class="project-title">Food Ordering System in LabView</h3>
+          <p class="project-category">Simulation</p>
+        </a>
+      </li>
+
+    </ul>
+
+  </section>
+
+</article>
+
+
+      <!--
+        - #CONTACT
+      -->
+
+<article class="contact" data-page="contact">
+
+  <header>
+    <h2 class="h2 article-title">Contact</h2>
+  </header>
+
+  <!-- 🌍 Map showing your Kariamangalam address -->
+  <section class="mapbox" data-mapbox>
+    <figure>
+      <iframe
+        src="https://www.google.com/maps?q=8645%2B5JX%2C%20Kariamangalam%2C%20Tamil%20Nadu%20635111&output=embed"
+        width="400"
+        height="300"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </figure>
+  </section>
+
+  <section class="contact-form">
+
+    <h3 class="h3 form-title">Contact Form</h3>
+
+    <form action="#" class="form" data-form>
+      <div class="input-wrapper">
+        <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+        <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+      </div>
+
+      <textarea name="message" class="form-input" placeolder="Your Message" required data-form-input></textarea>
+
+      <button class="form-btn" type="submit" disabled data-form-btn>
+        <ion-icon name="paper-plane"></ion-icon>
+        <span>Send Message</span>
+      </button>
+    </form>
+
+  </section>
+
+</article>
+
+
+
+<!-- ✅ Include EmailJS SDK -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<!-- ✅ Include your custom JS -->
+<script src="./assets/js/script.js"></script>
+
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
