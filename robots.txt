@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mouleeshwaran.vercel.app/sitemap.xml
